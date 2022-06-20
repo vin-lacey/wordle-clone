@@ -1,1 +1,18 @@
 /* Wordle Styles */
+
+
+@font-face {
+	font-family: "KarnakPro-Bold";
+	url("assets/KarnakPro-Bold.otf") format("opentype"),
+}
+
+body {
+	background: #121213;
+	color:  #ffffff;
+}
+
+.title-container h1 {
+	font-family: 'Alfa Slab One', cursive;
+	text-align: center;
+	font-weight: 200;
+}
