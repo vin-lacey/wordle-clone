@@ -1,18 +1,33 @@
 /* Wordle Styles */
 
-
-@font-face {
-	font-family: "KarnakPro-Bold";
-	url("assets/KarnakPro-Bold.otf") format("opentype"),
+* {
+    color: #ffffff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
 }
 
 body {
 	background: #121213;
-	color:  #ffffff;
 }
 
-.title-container h1 {
-	font-family: 'Alfa Slab One', cursive;
-	text-align: center;
-	font-weight: 200;
+.game-container {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
+
+.title-container {
+	text-align: center;
+    width: 510px;
+    border-bottom: solid 1px #3a3a3c;
+}
+
+.title {
+	font-family: 'Alfa Slab One', cursive !important;
+}
+
+
+
+
